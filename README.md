@@ -1,2 +1,4 @@
 # Tindog-
-desenvolvido no curso feito por Angela Yu - Udemy
+desenvolvido no curso feito por <strong>Angela Yu - Udemy</strong>
+
+https://z3ddk1ng.github.io/Tindog-/
