@@ -1,0 +1,153 @@
+@charset 'UTF-8';
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center !important;
+}
+
+h1, h2, h3{
+    font-family: 'Montserrat Black';
+    line-height: 1.5 !important;
+}
+
+h1{
+    font-size: 4em !important;
+}
+
+h2{
+    font-size: 3em !important;
+}
+
+h3{
+    font-size: 2em !important;
+}
+
+p{
+    color: rgb(133, 130, 130);
+}
+
+/* Title Section*/
+#title{
+    background-color: #ff4c68;
+    color: white;
+    text-align: left;
+}
+
+.title-img{
+    width: 55%;
+    transform: rotate(25deg);
+}
+
+/* Features Section*/
+#features{
+    padding: 3% 15%;
+    background-color: white;
+}
+
+.feature-box{
+    padding: 15%;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 10px;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+
+/* Navbar Section*/
+#navbarNav{
+    font-family: 'Montserrat-Light';
+    font-size: 1.6em;
+}
+
+.navbar{
+    padding-bottom: 4.5em !important;
+}
+
+.nav-item{
+    padding: 0 16px!important;
+}
+
+
+.navbar-brand{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 3em !important;
+    font-weight: bold;
+}
+
+/* Conteiner */
+.conteiner-fluid{
+    padding: 3% 15%;
+}
+
+/* Testimonial Section*/
+#testimonials{
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-img{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Press Section*/
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-img{
+    width: 12%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section*/
+#pricing{
+    padding: 100px;
+}
+
+.pricing-column{
+    padding: 3% !important;
+}
+
+/* Responsive initial image */
+@media (max-width: 1028px) {
+    #title{
+        padding: 10px;
+        text-align: center;
+    }
+
+	.title-img{
+	transform: rotate(0);
+    margin-top: 30px;
+	}
+}
+
+/* cta Section*/
+#cta{
+    background-color: #ff4c68;
+    color: white;
+    padding: 8% 15%;
+}
+
+#cta h3{
+    font-size: 3em !important;
+}
+
+#footer{
+    padding: 3% 15%;
+}
+
+.footer-icons{
+    margin: 20px 10px;
+}
